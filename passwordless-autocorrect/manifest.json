@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Passwordless Auto-correct",
+  "description": "Replaces the word passwordless with the correct technical definition.",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./passwordless-autocorrect.js"]
+    }
+  ]
+}
